@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Oiii Meu amor vamos pra mais uma 😍</h1>
+    <br>
+
+    <div id="quiz">
+      <div class="question-container">
+        <p id="question">Pergunta</p>
+        <ul id="options">
+          <!-- As opções serão inseridas dinamicamente -->
+        </ul>
+      </div>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2>Sua Pontuação: <span id="score"></span>/8</h2>
+      <button onclick="restartQuiz()" class="btn">Recomeçar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
